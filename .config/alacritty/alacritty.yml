@@ -1,0 +1,37 @@
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 11
+
+
+key_bindings:
+  - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+
+
+# cursor styling
+cursor:
+  style:
+    shape: Beam
+  vi_mode_style:
+    shape: Block
+
+window.opacity: 1
+
+# theme
+import:
+ - ~/.config/alacritty/themes/themes/xterm.yaml
+
